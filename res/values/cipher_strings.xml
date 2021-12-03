@@ -123,4 +123,8 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     
+    <!-- Applications fragment -->
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+
 </resources>
