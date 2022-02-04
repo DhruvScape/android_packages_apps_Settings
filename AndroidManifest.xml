@@ -112,6 +112,9 @@
     <!-- Face Unlock -->
     <uses-permission android:name="com.android.settings.FACE_UNLOCK"/>
     <permission android:name="com.android.settings.FACE_UNLOCK" android:protectionLevel="signatureOrSystem"/>
+    
+    <!-- App lock -->
+    <uses-permission android:name="android.permission.MANAGE_APP_LOCK" />
 
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
