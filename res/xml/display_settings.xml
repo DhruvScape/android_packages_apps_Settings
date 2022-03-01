@@ -163,4 +163,11 @@
             android:targetPackage="com.android.systemui"
             android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
+    
+    <com.cipher.support.preferences.SystemSettingSwitchPreference
+        android:key="volte_icon"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="true"
+        />
 </PreferenceScreen>
